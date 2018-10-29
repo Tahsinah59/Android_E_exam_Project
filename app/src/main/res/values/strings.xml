@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="QuestionCSE">
+
+        1.\n(a) Write the main feature of C language.\n\t\t
+            (b) Define:\n\t\t\t
+                    i)compiler.\n\t\t\t
+                    ii)interpreter\n\t\t\t
+                    iii)source code.\n
+            (c) In the view of memory storage ,what is the difference between 25 and 25.07\n
+            (d) Write a program to reverse a given number.\n\n
+        2.\n(a) Differential between while and do while loop.	02\n
+            (b) Determine the value of each of the  following logical expression if a=15,b=20 and c=-12	04\n
+                \t\t\ti)	a==c||b>=a+5.\n
+            (c) Write a program to check whether a given number  is the number of Fibonacci series or not.\n\n\n
+
+	    3.\n(a) Assume that the following declaration have been made in the program	04\n
+	            \t\tin year, count;\n
+	            \t\tfloat amount, price;\n
+                \t\tchar code, city[20];\n
+	            \t\tdouble root;\n
+            \t(b) When a switch statement is useful,explain briefly.	03\n
+            \t(c) Explain the perpose of extern  and gets keywords.write a C program whice calculate the average value of	4 2/3\n\n\n
+
+        4.\n(a) What do you mean by call by value and call by reference? Show the output of the following program.	04\n
+	            \t\tint funct(int val,int *data){\n
+		            \t\t\treturn((val++)+(*data)++);}\n
+	            \t\tvoid main(){\n
+		            \t\t\tint val*5,data*4;\n
+		            \t\t\tprintf(“%d”,funct(data,**));\n
+		            \t\t\tprintf(“%d%d”,val,data);\n
+                \t\t}\n
+        \t\t(b) Write a c program using recurslon which will calculate the value of nPr and nCr.	3 2/3\n
+        \t\t(c) Distinguise between; 02\n
+	        \t\t\ti)Local and Global variable.\n
+	        \t\t\tii)Autometic and Static variable.\n
+        	\t\t\t(a) Write a program to read a decimal number and print its octal equivalent number.	5 2/3\n\n\n
+
+        5.\n(a) Write a program to print the following output using loop statement. Finally generate the program for ‘n’	06
+           lines.
+                  \t\t\t\t* * * * *
+                  \t\t\t\t* * *  *
+                    \t\t\t\t\t* * *
+                     \t\t\t\t\t\t* *
+                      \t\t\t\t\t\t\t*
+
+            (b) Write a program to copy all the elements of a s*c array to be a 30 element one dimensional array.	5 2/3\n\n\n
+
+    </string>
+
+    <string name="QUESTIONeee">
+        1.\n(a) Define the following:\n\t\t\t
+                    i)Ideal and partial voltage and current sources.\n\t\t\t
+                    ii)Active and passive elements.\n\t\t\t
+            (b) State KVL and KCL.\n\n
+        2.\n(a) What are the reasons for placing two or more batteries(voltage source) in parallel? Explain with circuit diagram.	02\n
+            (b) Determine V and I for the following networks, if the resistance R2 is shorted out.	04\n
+            (c) Determine the equivalent resistance of the following circuits.\n\n\n
+        3.\n(a) ) Define the following:	04\n\t\t\t
+                    i)	Active and passive elements.\n\t\t\t
+                    ii)	Independent and dependent voltage source.\n
+
+            (b) Write down the steps of determining Thevenin equivalent resistance involving circuit with only dependent source. Find the	6 2/3
+value of source resistance RS so that maximum power delivered to the load is 20W.
+\n\n
+            4.\n(a) Determine the average power delivered to networks having the following input voltage and current.	6 2/3
+	\n\t\t\t(i)   v=100 sin⁡(wt+40°)\n\t\t\t
+    		  v=30 sin⁡(wt+70°)
+	\n\t\t\t(ii)  v=140 sin⁡(wt-70°)\n\t\t\t
+	      v=4 sin⁡(wt-50°)\n\n
+
+        5.\n
+        (a) Define power factor. Vectorically explain “capacitive networks have leading power factors and inductive networks have lagging	06
+        power factor”.\n
+        (b) Define phasor diagram.\n
+    </string>
+
+    <string name="QuestionMath">
+
+        1.\n
+        (a) Find from first principle the derivative of  x^x    (x>0)	04\n
+        (b) Differentiate x^(〖sin〗^(-1) x ) with respect to 〖sin〗^(-1) x.\n\n
+
+        2.\n
+        (a) State and prove Roller’s theorem.	04\n
+        (b) Define maximum and minimum of a function f(x) at x=a. Show that the minimum value of  x/logx is e\n
+        (c) Evaluate: 〖lim┬(x→0)   〗⁡〖(〖(1+x)〗^(1/x)  -e)/x〗\n\n
+
+        3.\n
+        (a) find the condition that conics ax^2+by^2=1 and a_1 x^2+b_1 y^2=1 shall cut orthogonally.	04\n
+        (b) If lx+my=1 touches the curve 〖(ax)〗^n+〖(by)〗^n=1 then show that	04\n
+             \t\t〖(1/a)〗^(n/n-1)+〖(n/b)〗^(n/n-1)=1\n
+        (c) Find the radius of curvature at the origin of the following curve: x^3+y^3=3axy\n\n
+
+        4.\n
+        (a) find the whole area of a cycloid x=a(θ+sinθ), y=a(1-cosθ), bounded by its base.	04\n
+        (b) Find the volume and the surface area of the solid ngenerated by revolving the cardioide	04\n
+           \t\tr=a(1-cosθ) about the initial line.
+
+        \n(c) Find the volume intrinsic equation of the cardiodie	3 2/3\n\n
+             \t\tr=a(1-cosθ), the arc being measured from the cusp(θ=0)\n\n
+
+        5.\n
+        (a) State and prove the Euler’s homogeneous function for three variables.	04\n
+        (b) If x^2/a^2 +y^2/b^2 +z^2/c^2 =1 and x^2/(a^2+λ)+y^2/(b^2+λ)+z^2/(c^2+λ)=1 then prove that	3 2/3\n
+            \t\t(x(b^2-c^2))/dx+(y(c^2-a^2))/dy+(z(a^2-b^2))/dz=0\n
+        (c) Find the radius of curvature at any point for the curve x=a(θ-sinθ)  ,y=a(1-cosθ)\n\n
+
+        6.\n
+        	(a) Define Gamma and Beta function. Show that ¯( ) n+1) = n¯( ) n)	04\n
+            (b) Obtain the reduction Function for ∫▒〖e^ax   〖cos〗^n   x  dx〗	04\n
+            (c) Find the lengths of the loop of the curve x=t^2, y=t-1/3 t^3\n\n
+
+
+    </string>
+</resources>

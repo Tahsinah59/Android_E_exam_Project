@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.helloworld">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".CSE1101" />
+        <activity android:name=".EEE1151" />
+        <activity android:name=".OneOne" />
+        <activity android:name=".OneTwo" />
+        <activity android:name=".TwoOne" />
+        <activity android:name=".TwoTwo" />
+        <activity android:name=".ThreeOne" />
+        <activity android:name=".ThreeTwo" />
+        <activity android:name=".FourOne" />
+        <activity android:name=".FourTwo" />
+        <activity android:name=".MATH1113" />
+        <activity android:name=".QuestionCSE1101" />
+        <activity android:name=".HUM1113" />
+        <activity android:name=".QuestionMATH1113" />
+        <activity android:name=".QuestionEEE1151" />
+        <activity android:name=".QuestionHUM1113" />
+    </application>
+
+</manifest>

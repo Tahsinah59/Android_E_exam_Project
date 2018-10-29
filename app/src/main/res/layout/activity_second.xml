@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2D7D3"
+    tools:context="com.example.asus.helloworld.SecondActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/btn_OO"
+        android:layout_width="295dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn00"
+        android:text="1-1"
+        android:textColor="#F2F1EF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_OT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btn_OT"
+        android:layout_width="286dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn01"
+        android:text="1-2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_TO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_OO" />
+
+    <Button
+        android:id="@+id/btn_TO"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn00"
+        android:text="2-1"
+        android:textColor="#F2F1EF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_TT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_OT" />
+
+    <Button
+        android:id="@+id/btn_TT"
+        android:layout_width="291dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn01"
+        android:text="2-2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_THO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_TO" />
+
+    <Button
+        android:id="@+id/btn_THO"
+        android:layout_width="298dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn00"
+        android:text="3-1"
+        android:textColor="#F2F1EF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_THT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_TT" />
+
+    <Button
+        android:id="@+id/btn_THT"
+        android:layout_width="292dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn01"
+        android:text="3-2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_FO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_THO" />
+
+    <Button
+        android:id="@+id/btn_FO"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn00"
+        android:text="4-1"
+        android:textColor="#F2F1EF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_FT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_THT" />
+
+    <Button
+        android:id="@+id/btn_FT"
+        android:layout_width="303dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn01"
+        android:text="4-2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_FO" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="156dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="  Select Your Semister"
+        android:textColor="#6C7A89"
+        app:layout_constraintBottom_toTopOf="@+id/btn_OO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
